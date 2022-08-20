@@ -13,7 +13,7 @@ func main() {
 
     params := &openapi.CreateMessageParams{}
     params.SetFrom(os.Getenv("TWILIO_MESSAGING_SERVICE_SID"))
-    params.SetTo("+1xxxxxxxxxx")
+    params.SetTo("+919073423666")
     params.SetBody("Friendly reminder that you have an appointment with us next week.")
     params.SetScheduleType("fixed")
     params.SetSendAt(sendWhen)
